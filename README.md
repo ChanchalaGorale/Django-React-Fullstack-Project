@@ -1,8 +1,8 @@
 # Django-React-Fullstack-Project
+You can login and add members in here. The app wont let you enter the member with existing email. You can add and delete members from here.
 
-## Front end
-
-Installed below packages: (have create react app manually here- if you are creating recat app with npx you sould see most of these packages in node_modules folder)
+## npm i
+Installed below dependencies: (have create react app manually here- if you are creating recat app with npx you sould see most of these packages in node_modules folder)
 
 - webpack
 - webpack-cli
@@ -13,6 +13,7 @@ Installed below packages: (have create react app manually here- if you are creat
 - babel-plugin-transform-class-properties
 - react
 - react-dom
+- react-router-dom
 - prop-types
 - redux
 - react-redux
@@ -22,3 +23,16 @@ Installed below packages: (have create react app manually here- if you are creat
 - react-alert
 - react-alert-template-basic
 - react-transition-group
+- knox
+
+## Start the server
+
+python manage.py runserver
+
+## Run webpack
+
+npm run dev
+
+## Production
+
+npm run build
