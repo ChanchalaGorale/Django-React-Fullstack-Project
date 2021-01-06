@@ -25,8 +25,10 @@ Installed below dependencies: (have create react app manually here- if you are c
 - react-transition-group
 - knox
 
-## Start the server
+## Virtual env
+pipenv shell
 
+## Start the server
 python manage.py runserver
 
 ## Run webpack
